@@ -1,0 +1,416 @@
+body, html {
+  height: 100%;
+}
+
+nav {
+  top: 0px;
+  left: 0px;
+  height: 148px;
+  background: #0C2434 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+nav .nav-logo {
+  padding: 50px 40px 5px 20px;
+}
+
+nav img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 796px;
+}
+
+.banner-container .banner-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.banner-container .banner-image img {
+  max-width: 100%;
+  height: 796px;
+}
+
+.banner-container .col-lg-6 {
+  padding: 160px 40px 20px 190px;
+}
+
+.banner-container .banner-content {
+  display: inline-block;
+}
+
+.banner-container .banner-content .date {
+  font-size: 21px;
+  padding: 0 12px;
+  color: #676767;
+}
+
+.banner-container .banner-content h2 {
+  font-family: 'Francois One', sans-serif;
+  font-weight: 900;
+  color: #676767;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.banner-container .banner-content h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #676767;
+  opacity: 1;
+  font-style: italic;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.banner-container .banner-content h3:after {
+  content: "";
+  background: #676767;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  width: 400px;
+  height: 2px;
+  margin-top: 60px;
+}
+
+.banner-container .banner-content p {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #676767;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1002) {
+  .banner-container .banner-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner-container .banner-content .banner-image {
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  .banner-container .banner-content .banner-image img {
+    height: 1196px;
+  }
+  .banner-container .banner-content .banner-content {
+    padding: 0;
+  }
+}
+
+.banner-container .banner-form {
+  margin-top: 140px;
+  position: relative;
+  background-color: #FFFF;
+  border-radius: 8px;
+  border: 1px solid #E2E2E2;
+  width: 200px;
+  height: 500px;
+  text-align: center;
+  display: inline-block;
+}
+
+.banner-container .banner-form h4 {
+  font-size: 19px;
+  color: #676767;
+  letter-spacing: 2.28px;
+  font-weight: bolder;
+  margin-top: 12%;
+}
+
+.banner-container .banner-form h4 {
+  font-size: 19px;
+  color: #676767;
+  letter-spacing: 2.28px;
+  font-weight: bolder;
+  margin-top: 12%;
+}
+
+.banner-container .banner-form p {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #676767;
+  letter-spacing: 0;
+  opacity: 1;
+  padding: 3%;
+}
+
+.banner-container .banner-form button {
+  display: inline-block;
+  padding: 16px 30px;
+  font-size: 20px;
+  border-color: transparent;
+  border-width: 0;
+  border-style: solid;
+  border-radius: 25px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#FCC57B), to(#D98624)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #FCC57B 0%, #D98624 100%) 0% 0% no-repeat padding-box;
+  width: 360px;
+  margin: 2%;
+}
+
+.banner-container .banner-form .under-form {
+  font-size: 24px;
+  font-style: italic;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .banner-container {
+    display: block;
+    padding: 40px;
+  }
+  .banner-container .col-sm-12 {
+    display: block;
+    width: 100%;
+  }
+  .banner-container .banner-image {
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  .banner-container .banner-image img {
+    height: 1196px;
+  }
+  .banner-container .banner-content {
+    display: block;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1129px) {
+  .banner-container {
+    display: block;
+    padding: 40px;
+  }
+  .banner-container .col-sm-12 {
+    display: block;
+    width: 100%;
+  }
+  .banner-container .banner-image {
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  .banner-container .banner-image img {
+    height: 1196px;
+  }
+  .banner-container .banner-content {
+    display: block;
+    padding: 0;
+  }
+}
+
+.bruce-mentorship {
+  padding: 100px 110px;
+}
+
+.bruce-mentorship .intro {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  text-align: left;
+  padding: 0 60px;
+  font-size: 50px;
+  font-weight: 100;
+  color: #676767;
+  width: 100%;
+}
+
+.bruce-mentorship .stack-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: -50px;
+}
+
+.bruce-mentorship .stack-next p {
+  color: #676767;
+  font-size: 21px;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+  width: 668px;
+  height: 400px;
+  font-weight: 200;
+  padding: 0 63px 0;
+}
+
+.bruce-mentorship .stack-next img {
+  width: auto;
+  height: 420px;
+  margin-top: -81px;
+}
+
+.bruce-mentorship ul {
+  color: #676767;
+  font-size: 21px;
+  list-style-type: none;
+  padding: 50px 93px 0 60px;
+  font-weight: 200;
+}
+
+.bruce-mentorship ul .fa.fas.fa-check {
+  color: #63B511;
+  padding: 10px;
+}
+
+.bruce-mentorship .bonus {
+  width: 85%;
+  margin: 50px 60px;
+  padding: 50px;
+  border: 1px solid #E2E2E2;
+  border-radius: 8px;
+  opacity: 1;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #676767;
+  opacity: 1;
+}
+
+.bruce-mentorship .webinar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #676767;
+  font-style: italic;
+  opacity: 1;
+}
+
+.bruce-mentorship .webinar:before,
+.bruce-mentorship .webinar:after {
+  content: '';
+  border-top: 1px solid;
+  margin: 0 20px 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 20px;
+          flex: 1 0 20px;
+  background: #FFFFFF;
+}
+
+.bruce-mentorship .webinar:after {
+  margin: 0 0 0 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .bruce-mentorship {
+    width: 100%;
+  }
+  .bruce-mentorship .webinar {
+    margin-top: 100px;
+  }
+  .bruce-mentorship .bonus {
+    width: 100%;
+    margin: 60px 0 0;
+  }
+  .bruce-mentorship .stack-next {
+    display: block;
+  }
+  .bruce-mentorship .stack-next p {
+    padding: 0;
+    width: 100%;
+  }
+  .bruce-mentorship .stack-next img {
+    margin-top: 0;
+  }
+  .bruce-mentorship .intro {
+    margin-top: 330px;
+    font-size: 40px;
+    padding: 0;
+  }
+  .bruce-mentorship ul {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1129px) {
+  .bruce-mentorship {
+    padding: 480px 0 20px;
+  }
+  .bruce-mentorship .intro {
+    padding: 0;
+  }
+  .bruce-mentorship .stack-next {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .bruce-mentorship .stack-next p {
+    display: inline-block;
+    padding: 0;
+    width: 50%;
+  }
+  .bruce-mentorship .stack-next img {
+    display: inline-block;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .bruce-mentorship .webinar {
+    padding: 190px 0 20px;
+  }
+}
+
+.footer-container {
+  top: 2427px;
+  left: 0px;
+  height: 148px;
+  background: #0C2434 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer-container .footer-img {
+  display: inline-block;
+  width: 170px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.footer-container .footer-content {
+  color: #FFFF;
+  letter-spacing: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-container .footer-content::before {
+  position: absolute;
+  border-left: 4px solid white;
+  height: 500px;
+}
+/*# sourceMappingURL=main.css.map */
